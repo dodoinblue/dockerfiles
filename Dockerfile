@@ -4,4 +4,4 @@ MAINTAINER Charles Liu <dodoinblue@gmail.com>
 
 COPY sources.list /etc/apt/sources.list
 
-CMD apt-get update
+RUN apt-get update
